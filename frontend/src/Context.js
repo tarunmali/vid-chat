@@ -7,7 +7,7 @@ import {stime} from './components/Sstopwatchs';
 const SocketContext = createContext();
 //qqqqq
 // const socket = io('http://localhost:5000');
-const socket = io('https://urchin-app-eftpc.ondigitalocean.app/');
+const socket = io('https://urchin-app-eftpc.ondigitalocean.app');
 
 const ContextProvider = ({ children }) => {
   const [callAccepted, setCallAccepted] = useState(false);
