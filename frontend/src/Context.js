@@ -7,7 +7,7 @@ import {stime} from './components/Sstopwatchs';
 const SocketContext = createContext();
 //qqqqq
 // const socket = io('http://localhost:5000');
-const socket = io('https://video-chat-backend-47ntu.ondigitalocean.app/');
+const socket = io('https://octopus-app-2-y2ppe.ondigitalocean.app/');
 
 const ContextProvider = ({ children }) => {
   const [callAccepted, setCallAccepted] = useState(false);
